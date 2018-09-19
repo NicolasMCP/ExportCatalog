@@ -1,4 +1,7 @@
 # ExportCatalog
+
+![CRAN](https://img.shields.io/cran/l/devtools.svg?style=for-the-badge)
+
 ***```Programa GNU GPL```*** que facilita a importação de arquivos "copiados do cabeçalho de um web-mail" para criar um catálogo de endereços no Thunderbird.  
 > Escrito em Visual C# 2017 Community com Framework 4.5.2.
 
