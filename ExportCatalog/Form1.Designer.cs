@@ -59,7 +59,7 @@
             // 
             // saveFileDialog1
             // 
-            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.SaveFileDialog1_FileOk);
             // 
             // btnExport
             // 
@@ -69,7 +69,7 @@
             this.btnExport.TabIndex = 2;
             this.btnExport.Text = "&Exportar";
             this.btnExport.UseVisualStyleBackColor = true;
-            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            this.btnExport.Click += new System.EventHandler(this.BtnExport_Click);
             // 
             // btnImport
             // 
@@ -79,7 +79,7 @@
             this.btnImport.TabIndex = 3;
             this.btnImport.Text = "&Importar";
             this.btnImport.UseVisualStyleBackColor = true;
-            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            this.btnImport.Click += new System.EventHandler(this.BtnImport_Click);
             // 
             // btnFim
             // 
@@ -89,12 +89,12 @@
             this.btnFim.TabIndex = 4;
             this.btnFim.Text = "&Fim";
             this.btnFim.UseVisualStyleBackColor = true;
-            this.btnFim.Click += new System.EventHandler(this.btnFim_Click);
+            this.btnFim.Click += new System.EventHandler(this.BtnFim_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.OpenFileDialog1_FileOk);
             // 
             // btnProcessar
             // 
@@ -104,7 +104,7 @@
             this.btnProcessar.TabIndex = 5;
             this.btnProcessar.Text = "&Processar";
             this.btnProcessar.UseVisualStyleBackColor = true;
-            this.btnProcessar.Click += new System.EventHandler(this.btnProcessar_Click);
+            this.btnProcessar.Click += new System.EventHandler(this.BtnProcessar_Click);
             // 
             // Form1
             // 

@@ -12,7 +12,8 @@ using System.Windows.Forms;
 /*
  * Autor: Herley Nicolas Ramos Sanchez
  * email: nicolas.mcp@gmail.com
- * licença:  GNU GPL
+ * 
+ * licença:  GNU GPL 3
  * Objetivo: facilitar a importação de arquivos "copiados do cabeçalho de um web-mail" para
  *           criar um catálogo de endereços no Thunderbird
  */
@@ -27,7 +28,7 @@ namespace WindowsFormsApplication2 {
 
         }
 
-        private void btnExport_Click(object sender, EventArgs e) {
+        private void BtnExport_Click(object sender, EventArgs e) {
 
             string s = txtDat.Text.Trim();
             if(s.Length > 0) {
@@ -43,7 +44,7 @@ namespace WindowsFormsApplication2 {
 
         }
 
-        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e) {
+        private void SaveFileDialog1_FileOk(object sender, CancelEventArgs e) {
 
             string caminho = saveFileDialog1.FileName;
             StringBuilder sb = new StringBuilder();
@@ -53,13 +54,13 @@ namespace WindowsFormsApplication2 {
             File.WriteAllText(caminho, sb.ToString());
         }
 
-        private void btnFim_Click(object sender, EventArgs e) {
+        private void BtnFim_Click(object sender, EventArgs e) {
 
             this.Close();
 
         }
 
-        private void btnImport_Click(object sender, EventArgs e) {
+        private void BtnImport_Click(object sender, EventArgs e) {
 
             openFileDialog1.Filter = "Arquivos de Texto (*.txt)|*.txt";
             openFileDialog1.DefaultExt = "txt";
@@ -70,7 +71,7 @@ namespace WindowsFormsApplication2 {
 
         }
 
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e) {
+        private void OpenFileDialog1_FileOk(object sender, CancelEventArgs e) {
 
             btnImport.Enabled = false;
             string caminho = openFileDialog1.FileName;
@@ -78,7 +79,7 @@ namespace WindowsFormsApplication2 {
 
         }
 
-        private void btnProcessar_Click(object sender, EventArgs e) {
+        private void BtnProcessar_Click(object sender, EventArgs e) {
 
             string s;
             int menorQue;
@@ -188,7 +189,7 @@ namespace WindowsFormsApplication2 {
                 if(s.Substring(final + 1, 1).Equals(">")|| s.Substring(final + 1, 1).Equals(",")) {
                     s = s.Remove(final + 1, 1);
                 }
-                s = s + "|\n";
+                s += "|\n";
             }
             return s;
         }
