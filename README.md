@@ -17,5 +17,27 @@
 
 * ***```Telas do programa```***
 
+Tela Inicial
+
 ![TelaInicial](img/tela-inicial.png)
+
+Tela de Importação
+
+![TelaImportacao](img/tela-importacao.png)
+
+Tela de Dados a Processar
+
+![TelaAProcessar](img/tela-dados-a-processar.png)
+
+Tela de Dados já Processados
+
+![TelaDadosProcessados](img/tela-dados-processados.png)
+
+Tela de Exportação
+
+![TelaExportacao](img/tela-exemplo-exportacao.png)
+
+Tela de Confirmação
+
+![TelaConfirmacao](img/tela-caso-o-arquivo-exista.png)
 
