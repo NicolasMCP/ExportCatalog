@@ -143,10 +143,6 @@ namespace WindowsFormsApplication2 {
                         nome = umaLinha.Substring(0, arroba);
                         sb.Append(nome + ",," + nome + ",," + umaLinha);
                         sb.Replace("|", ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,");
-                        sbFinal.Append(sb.ToString());
-                        sb.Clear();
-                        sbFinal.Replace("\n", "\r\n");
-                        txtDat.Text = sbFinal.ToString();
                     }
 
                 } else {
@@ -157,15 +153,16 @@ namespace WindowsFormsApplication2 {
                         sb.Append(nome + ",," + umaLinha);
                         sb.Replace(" <", ",,");
                         sb.Replace("|", ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,");
-                        sbFinal.Append(sb.ToString());
-                        sb.Clear();
-                        sbFinal.Replace("\n", "\r\n");
-                        txtDat.Text = sbFinal.ToString();
                     }
 
                 }
+                sbFinal.Append(sb.ToString());
+                sb.Clear();
+                sbFinal.Replace("\n", "\r\n");
+                txtDat.Text = sbFinal.ToString();
+                label1.Text = "Dados Processados Corretamente!";
 
-            } while(s.Length > 3);
+            } while (s.Length > 3);
 
         }
 
