@@ -1,9 +1,9 @@
 # ExportCatalog
 
-![CRAN](https://img.shields.io/cran/l/devtools.svg?style=for-the-badge)
+![CRAN](https://img.shields.io/badge/%20LICENSE%20-GPL%203-blue.svg?style=for-the-badge)
 
 ***```Programa GNU GPL```*** que facilita a importação de arquivos "copiados do cabeçalho de um web-mail" para criar um catálogo de endereços no Thunderbird.  
-> Escrito em Visual C# 2017 Community com Framework 4.5.2.
+> Atualizado para Visual C# 2019 Community com Framework 4.5.2.
 
 * ***```Importe ou "cole" os dados```*** tem um exemplo dos dados que processam corretamente no arquivo 'ExemploA_Importar.txt'.  
 
