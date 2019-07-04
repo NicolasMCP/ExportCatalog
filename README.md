@@ -14,3 +14,8 @@
 * ***```Fim```*** naturalmente encerra o programa.  
 
 * ***```ExemploCatalogoExportado.csv```*** este arquivo comtêm um exemplo de como ficam os dados exactamente (usando o 'ExemploA_Importar.txt').  
+
+* ***```Telas do programa```***
+
+![TelaInicial](img/tela-inicial.png)
+
