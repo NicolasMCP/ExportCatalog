@@ -41,3 +41,23 @@ Tela de Confirmação
 
 ![TelaConfirmacao](img/tela-caso-o-arquivo-exista.png)
 
+<br/>
+
+#### [infodata](https://nicolasmcp.github.io/infodata/)
+
+
+#### [código infodata atualizando](https://github.com/NicolasMCP/infodata/blob/main/README.md)
+
+
+#### [google drive](https://drive.google.com/drive/folders/0B8C7-DYa7vcUUVRzanFhZENMTFU)
+
+
+#### [youtube](https://www.youtube.com/channel/UCYI7lWiyTmdY8vU6Ub1LZAw)
+
+
+#### [anteriormente infodata.xyz](https://github.com/NicolasMCP/infodata.xyz/blob/master/README.md)
+
+
+**Projeto de Nícolas Ramos**
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[nicolas.mcp@gmail.com](mailto:nicolas.mcp@gmail.com)
